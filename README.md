@@ -1,20 +1,13 @@
-Project Title:
+This project analyzes a dataset of used cars from Ebay Kleinanzeigen, a German online classifieds marketplace. The dataset contains 50,000 data points, with 20 columns of information on various attributes of each car.
 
-Exploring eBay Car Sales Data
-Overview
+Data cleaning and exploration were conducted to prepare the dataset for analysis. The cleaning process involved dropping unnecessary columns, converting text values to numerical values, and removing outliers. The exploration process revealed interesting insights into the distribution of car prices and mileage across different car brands, as well as trends in car registrations and ad creation.
 
-This project analyzes a dataset of used cars from eBay Kleinanzeigen, a classifieds section of the German eBay website. The aim of this project is to clean the data, explore the various columns, and perform basic data analysis on the data.
-Dataset
+Key findings from the analysis include:
 
-The dataset contains information on used cars, including the brand, model, price, mileage, registration year, and other related information. The dataset was originally scraped and uploaded to Kaggle. It has been slightly modified for this project.
-Key Findings and Insights
-
-    The most popular car brand in the dataset is Volkswagen, followed by Opel and BMW.
-    The average price of a car in the dataset is 3892.50 euros, with a minimum price of 0 euros and a maximum price of 99 million euros.
-    The average mileage for a car in the dataset is 125,770 km.
+    Volkswagen is the most popular car brand in the dataset, followed by Opel and BMW.
+    The most expensive car brand on average is "Sonstige Autos," while the least expensive is Renault.
+    The brand with the highest mean mileage is "Audi," while the brand with the lowest mean mileage is "Sonstige Autos."
     The majority of the cars in the dataset were registered between the years 1995 and 1998.
-    The most expensive car brand on average is sonstige_autos, while the least expensive is Renault.
+    The most common registration years in the dataset are between 1995 and 1998, with 1998 being the highest year with around 22.5% and 1994 being the lowest with 6%.
 
-Conclusion
-
-This project has provided a basic overview of the used car market in Germany, with insights into the most popular car brands, average prices, and average mileage. The dataset could be used for further analysis, such as predicting car prices based on the features and characteristics of the car.
+This project can be used as a reference for data cleaning and exploration techniques on similar datasets. The code used in this analysis is available in the Jupyter Notebook file provided in this repository.
