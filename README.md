@@ -1,4 +1,4 @@
-#Project Title
+Project Title:
 
 Exploring eBay Car Sales Data
 Overview
